@@ -22,6 +22,5 @@ A cool and fast Fibonacci sequence generator written in **x86-64 Assembly**! Thi
 
 ### Steps:
 1. **Assemble the code**:
-   nasm -f elf64 FIB.s
-   ld -o Fib FIB.o -lc --dynamic-linker /lib64/ld-linux-x86-64.so.2
-   ./Fib 
+   - nasm -f elf64 FIB.s && ld -o Fib FIB.o -lc --dynamic-linker /lib64/ld-linux-x86-64.so.2
+   - ./Fib 
